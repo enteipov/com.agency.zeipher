@@ -1,0 +1,43 @@
+html,
+body,
+header {
+  min-width: 100vw;
+  min-height: 100vh; }
+
+header,
+footer {
+  color: white; }
+
+.navbar {
+  background: #3BAFDA;
+  margin-bottom: 0; }
+
+.navbar-brand {
+  padding: 0;
+  color: inherit; }
+  .navbar-brand img {
+    display: inline; }
+  .navbar-brand .zeipher-title {
+    display: inline;
+    font-weight: 600; }
+
+.jumbotron {
+  height: calc(100vh - 60px);
+  background: transparent; }
+  .jumbotron .shader {
+    background-color: rgba(0, 0, 0, 0.3); }
+  .jumbotron .text-container {
+    height: calc(100% - 50px); }
+
+main p {
+  color: #757575; }
+
+main h1, main h2, main h3, main h4, main h5, main h6 {
+  color: #616161; }
+
+main i {
+  font-size: 35px; }
+
+@media (max-width: 767px) {
+  main .card:not(.last) {
+    margin-bottom: 1rem; } }

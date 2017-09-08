@@ -1,0 +1,50 @@
+$primary-color: #3BAFDA
+$primary-color-light: #4FC1E9
+$primary-text-color: #757575
+$secondary-text-color: #616161
+
+html,
+body,
+header
+	min-width: 100vw
+	min-height: 100vh
+
+header,
+footer
+	color: white
+
+.navbar
+	background: $primary-color
+	margin-bottom: 0
+
+.navbar-brand
+	padding: 0
+	color: inherit
+	img
+		display: inline
+	.zeipher-title
+		display: inline
+		font-weight: 600
+
+.jumbotron
+	height: calc(100vh - 60px)
+	background: transparent
+	.shader
+		background-color: rgba(0,0,0,0.3)
+	.text-container
+		height: calc(100% - 50px)
+
+main
+	p
+		color: $primary-text-color
+	h1,h2,h3,h4,h5,h6
+		color: $secondary-text-color
+	i
+		font-size: 35px
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px)
+	main
+		.card:not(.last)
+			margin-bottom: 1rem
+		
