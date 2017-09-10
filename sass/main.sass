@@ -1,21 +1,45 @@
-$primary-color: #3BAFDA
-$primary-color-light: #4FC1E9
-$primary-text-color: #757575
-$secondary-text-color: #616161
+$primary-color: #03A9F4
+$primary-color-light: #29B6F6
+$primary-text-color: #9e9e9e
+$secondary-text-color: #424242
 
 html,
-body,
-header
+body
 	min-width: 100vw
 	min-height: 100vh
 
-header,
-footer
+header
+	min-width: 100vw
+	height: calc(100vh - 66px)
 	color: white
 
+body
+	padding-top: 66px
+	background: #f1f2f6
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important
+
+.shader
+	width: 100%
+	height: 100%
+	background-color: rgba(0,0,0,0.3)
+
+nav,
+footer
+	color: $primary-color
+
+nav,
+footer
+	background: white
+
 .navbar
-	background: $primary-color
 	margin-bottom: 0
+
+.navbar-fixed-top
+	position: fixed
+	top: 0
+	right: 0
+	left: 0
+	z-index: 1030
 
 .navbar-brand
 	padding: 0
@@ -29,22 +53,70 @@ footer
 .jumbotron
 	height: calc(100vh - 60px)
 	background: transparent
-	.shader
-		background-color: rgba(0,0,0,0.3)
 	.text-container
 		height: calc(100% - 50px)
 
 main
+	section
+		min-height: 100vh
+	section:not(:first-child)
+		margin-top: 25%
+	section:last-child
+		margin-bottom: 1rem
 	p
 		color: $primary-text-color
 	h1,h2,h3,h4,h5,h6
 		color: $secondary-text-color
-	i
-		font-size: 35px
+	.card.special
+		margin-top: 4rem
+	.card-body.special
+		padding: 3rem 1rem 0 1rem
+		border-top: solid 3px $primary-color
+	.outline-border
+		position: absolute
+		top: -50px
+		left: 0
+		right: 0
+		margin: 0 auto
+		background: white
+		.img-container
+			height: 100%
+			width: 100%
+			background-size: cover
+			background-position: center
+	.outline-border
+		width: 100px
+		height: 100px
+		margin: 0 auto
+		border: solid 3px $primary-color
+		i
+			line-height: 86px
+			font-size: 35px
+			color: white
+
+//Timeline CSS
+.event-heading
+	margin-top: 0
+	margin-bottom: .5rem
+	
+.event-text
+	margin-bottom: .5rem
+	
+dt
+	background-color: $primary-color !important
+.timeline dl dd .time
+	width: auto
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767px)
 	main
 		.card:not(.last)
 			margin-bottom: 1rem
+
+	.timeline dl dd .time
+		width: 50px
+
+	.timeline
+		.circ
+			display: none
 		

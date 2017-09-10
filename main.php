@@ -1,47 +1,48 @@
 <main>
 	<div class="container">
 		
-		<section class="mb-3">
+		<section>
 			<div class="row">
-				<div class="col col-sm-12 text-center">
-					<h4>What is Zeipher Agency?</h4>
-					<p>Zeipher Agency is a web agency started by Entei Amaré in Los Angeles, California. We cater specifically to the web needs of doctors and medical practices.</p>
+				<div class="col text-center">
+					<h3>About Zeipher</h3>
+					<h6>(Zee-fur)</h6>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6">
+					<div>
+						<h4>What is the Zeipher Agency?</h4>
+						<p>A web agency that caters specifically to the web and digital needs of doctors and medical practices.</p>
+					</div>
+				</div>
+				
+				<div class="col-sm-12 col-md-6">
+					<div>
+						<h4>Why Cater to Medicine?</h4>
+						<p>Entei Amaré, the founder, decided to cater to the healthcare field due to his history in and understanding of the industry. Amaré has 4+ years of experience in healthcare as a surgical assistant, and 6+ years in the tech field as a developer. </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col text-center">
+					<h4>The Journey to Zeipher</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<?php include 'timeline.php'; ?>
 				</div>
 			</div>
 		</section>
 		
-		<section class="mb-3">
+		<section>
 			<div class="row">
 				<div class="col-sm-12 text-center">
-					<h4>What Do We Offer?</h4>
+					<h3>What We Can Do For Your Practice</h3>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-12 col-md-4 text-center">
-					<div class="card">
-						<div class="card-body">
-							<i class="ion-code"></i>
-							<h6>Web Development</h6>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-4 text-center">
-					<div class="card">
-						<div class="card-body">
-							<i class="ion-email-unread"></i>
-							<h6>Email Campaigning</h6>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-4 text-center">
-					<div class="card last">
-						<div class="card-body">
-							<i class="ion-stats-bars"></i>
-							<h6>Analytic Tracking</h6>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php include 'services.php'; ?>
 		</section>
 		
 	</div>

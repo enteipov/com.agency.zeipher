@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/css\/bootflat.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/bootflat.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -16,6 +26,36 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/slabtext.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/slabtext-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/timeline-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/timeline-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/timeline.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/timeline-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -30,6 +70,17 @@
 		"oA": 2,
 		"oAP": "\/header.php",
 		"oF": 0
+		},
+	"\/img\/branding-bg.png": {
+		"ft": 32768,
+		"iS": 307090,
+		"oA": 0,
+		"oAP": "\/img\/branding-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/chevron-down.svg": {
 		"ft": 2097152,
@@ -50,6 +101,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/development-hero.png": {
+		"ft": 32768,
+		"iS": 367941,
+		"oA": 0,
+		"oAP": "\/img\/development-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/email-bg.png": {
+		"ft": 32768,
+		"iS": 209056,
+		"oA": 0,
+		"oAP": "\/img\/email-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/graph-bar.svg": {
 		"ft": 2097152,
@@ -101,9 +174,20 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/zeipher-avi.png": {
+	"\/img\/zeipher-avi-white.png": {
 		"ft": 32768,
 		"iS": 14622,
+		"oA": 0,
+		"oAP": "\/img\/zeipher-avi-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/zeipher-avi.png": {
+		"ft": 32768,
+		"iS": 8770,
 		"oA": 0,
 		"oAP": "\/img\/zeipher-avi.png",
 		"oF": 0,
@@ -117,6 +201,26 @@
 		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
+		},
+	"\/js\/parallax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/parallax.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/slabtext.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/slabtext.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/main.php": {
 		"ft": 8192,
@@ -136,6 +240,18 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/services.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/services.php",
+		"oF": 0
+		},
+	"\/timeline.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/timeline.php",
+		"oF": 0
 		}
 	},
 "hooks": [
