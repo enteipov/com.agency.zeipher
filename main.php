@@ -35,7 +35,6 @@
 				</div>
 			</div>
 		</section>
-		
 		<section>
 			<div class="row">
 				<div class="col-sm-12 text-center">
@@ -43,6 +42,18 @@
 				</div>
 			</div>
 			<?php include 'services.php'; ?>
+		</section>
+		<section>
+			<div class="row">
+				<div class="col">
+					<address>
+						<strong>Zeipher Agency</strong><br>
+						11130 S Wilton Pl<br>
+						Los Angeles, California<br>
+						90047
+					</address>
+				</div>
+			</div>
 		</section>
 		
 	</div>

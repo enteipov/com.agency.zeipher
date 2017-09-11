@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Zeipher | Agency</title>
+		<title>Zeipher Agency | web, mobile, email, branding and advertising agency for doctors and healthcare.</title>
 		<meta charset="UTF-8">
 		<meta name="description" content="Zeipher | A groundbreaking technology company specializing in agency services of web development and UI design.">
 		<meta name="keywords" content="Web Development, Web Design, UI Development, User Interface Development">
@@ -18,8 +18,9 @@
 		<?php include 'main.php' ?>
 		<?php include 'footer.php' ?>
 		
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 		<script src="js/slabtext.min.js"></script>
 		<script>
 			$('.slabme').slabText();

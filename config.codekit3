@@ -187,7 +187,7 @@
 		},
 	"\/img\/zeipher-avi.png": {
 		"ft": 32768,
-		"iS": 8770,
+		"iS": 14622,
 		"oA": 0,
 		"oAP": "\/img\/zeipher-avi.png",
 		"oF": 0,
@@ -226,6 +226,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/main.php",
+		"oF": 0
+		},
+	"\/nav.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/nav.php",
 		"oF": 0
 		},
 	"\/sass\/main.sass": {
