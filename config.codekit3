@@ -71,6 +71,16 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/hero.jpg": {
+		"ft": 16384,
+		"iS": 749796,
+		"oA": 0,
+		"oAP": "\/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/branding-bg.png": {
 		"ft": 32768,
 		"iS": 307090,
@@ -144,16 +154,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/hero.jpg": {
-		"ft": 16384,
-		"iS": 749796,
-		"oA": 0,
-		"oAP": "\/img\/hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/inbox.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -187,7 +187,7 @@
 		},
 	"\/img\/zeipher-avi.png": {
 		"ft": 32768,
-		"iS": 14622,
+		"iS": 8770,
 		"oA": 0,
 		"oAP": "\/img\/zeipher-avi.png",
 		"oF": 0,

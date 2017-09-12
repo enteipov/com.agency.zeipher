@@ -27,7 +27,7 @@
 		</script>
 		<script src="js/parallax.min.js"></script>
 		<script>
-			$('.parallax-mirror').parallax({imageSrc: './img/hero.jpg'});
+			$('.parallax-mirror').parallax({imageSrc: './img/hero.png'});
 		</script>
 	</body>
 </html>
