@@ -1,16 +1,15 @@
 html,
-body {
+body,
+header {
   min-width: 100vw;
   min-height: 100vh; }
 
 header {
-  min-width: 100vw;
-  height: calc(100vh - 66px);
   color: #4FC1E9; }
 
 body {
-  padding-top: 66px;
   background: #f1f2f6;
+  font-size: .9rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important; }
 
 .shader {
@@ -19,14 +18,11 @@ body {
   background-color: rgba(0, 0, 0, 0.3); }
 
 nav,
-footer {
-  color: #4FC1E9; }
-
-nav,
-footer {
+.footer {
+  color: #4FC1E9;
   background: white; }
   nav a,
-  footer a {
+  .footer a {
     color: inherit; }
 
 .navbar {
@@ -59,7 +55,7 @@ ul.nav {
   color: #4FC1E9; }
 
 .jumbotron {
-  height: calc(100vh - 60px);
+  height: 100vh;
   background: transparent;
   box-shadow: none;
   -webkit-box-shadow: none; }
@@ -67,6 +63,9 @@ ul.nav {
     height: calc(100% - 50px); }
   .jumbotron .attention-getter {
     font-size: 5vw; }
+
+.hero-logo {
+  width: 4rem; }
 
 main section {
   min-height: 100vh; }
@@ -87,8 +86,7 @@ main .card.special {
   margin-top: 4rem; }
 
 main .card-body.special {
-  padding: 3rem 1rem 0 1rem;
-  border-top: solid 3px #4FC1E9; }
+  padding: 3rem 1rem 0 1rem; }
 
 main .outline-border {
   position: absolute;
@@ -113,6 +111,43 @@ main .outline-border {
     font-size: 35px;
     color: white; }
 
+.card-deck .card:not(:last-child) {
+  margin-right: 0; }
+
+.footer-copyright {
+  font-size: .7rem; }
+
+.footer .nav-title {
+  color: #424242;
+  background-color: none; }
+
+.footer .nav-item a {
+  color: #4FC1E9; }
+
+form {
+  padding-bottom: 1rem; }
+  form div[class*='col'] {
+    margin-top: 1rem; }
+
+label {
+  font-weight: 600; }
+
+.form-control {
+  font-size: inherit;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out; }
+
+input:focus {
+  color: #4FC1E9 !important; }
+
+::placeholder {
+  color: #9e9e9e;
+  font-weight: 100;
+  opacity: .5; }
+
 .event-heading {
   margin-top: 0;
   margin-bottom: .5rem; }
@@ -120,7 +155,7 @@ main .outline-border {
 .event-text {
   margin-bottom: .5rem; }
 
-dt {
+dt.month {
   background-color: #4FC1E9 !important; }
 
 .timeline dl dd .time {

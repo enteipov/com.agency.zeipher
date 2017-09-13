@@ -1,6 +1,6 @@
 <div class="timeline w-100">
 	<dl>
-		<dt>Aug. 2011</dt>
+		<dt class="month">Aug. 2011</dt>
 		<dd class="pos-right clearfix">
 			<div class="circ"></div>
 			<div class="events">
@@ -11,7 +11,7 @@
 			</div>
 		</dd>
 		
-		<dt>Jan. 2012</dt>
+		<dt class="month">Jan. 2012</dt>
 		<dd class="pos-left clearfix">
 			<div class="circ"></div>
 			<div class="time"><p>Jan. 17<sup>th</sup></p></div>
@@ -23,7 +23,7 @@
 			</div>
 		</dd>
 		
-		<dt>June 2016</dt>
+		<dt class="month">June 2016</dt>
 		<dd class="pos-left clearfix">
 			<div class="circ"></div>
 			<div class="time"><p>June 28<sup>th</sup></p></div>
@@ -35,7 +35,7 @@
 			</div>
 		</dd>
 		
-		<dt>Jan. 2017</dt>
+		<dt class="month">Jan. 2017</dt>
 		<dd class="pos-right clearfix">
 			<div class="circ"></div>
 			<div class="time"><p>Jan. 7<sup>th</sup></p></div>
@@ -47,10 +47,10 @@
 			</div>
 		</dd>
 		
-		<dt>Sept. 2017</dt>
+		<dt class="month">Sept. 2017</dt>
 		<dd class="pos-left clearfix">
 			<div class="circ"></div>
-			<div class="time"><p>Sept. 10<sup>th</sup></p></div>
+			<div class="time"><p>Aug. 1<sup>th</sup></p></div>
 			<div class="events">
 				<div class="event-body">
 					<h4 class="event-heading">Amaré Launched Zeipher</h4>

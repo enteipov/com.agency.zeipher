@@ -4,18 +4,17 @@ $primary-text-color: #9e9e9e
 $secondary-text-color: #424242
 
 html,
-body
+body,
+header
 	min-width: 100vw
 	min-height: 100vh
 
 header
-	min-width: 100vw
-	height: calc(100vh - 66px)
 	color: $primary-color
 
 body
-	padding-top: 66px
 	background: #f1f2f6
+	font-size: .9rem
 	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important
 
 .shader
@@ -24,11 +23,8 @@ body
 	background-color: rgba(0,0,0,0.3)
 
 nav,
-footer
+.footer
 	color: $primary-color
-
-nav,
-footer
 	background: white
 	a
 		color: inherit
@@ -51,6 +47,7 @@ footer
 	.zeipher-title
 		display: inline
 		font-weight: 600
+
 ul.nav
 	width: 100%
 .nav-link,
@@ -58,9 +55,8 @@ ul.nav
 	line-height: 2rem
 .nav-icon
 	color: $primary-color
-
 .jumbotron
-	height: calc(100vh - 60px)
+	height: 100vh
 	background: transparent
 	box-shadow: none
 	-webkit-box-shadow: none
@@ -68,7 +64,10 @@ ul.nav
 		height: calc(100% - 50px)
 	.attention-getter
 		font-size: 5vw
+.hero-logo
+	width: 4rem
 
+//Main CSS
 main
 	section
 		min-height: 100vh
@@ -84,7 +83,6 @@ main
 		margin-top: 4rem
 	.card-body.special
 		padding: 3rem 1rem 0 1rem
-		border-top: solid 3px $primary-color
 	.outline-border
 		position: absolute
 		top: -50px
@@ -107,6 +105,40 @@ main
 			font-size: 35px
 			color: white
 
+.card-deck .card:not(:last-child)
+	margin-right: 0
+
+//Footer CSS
+.footer-copyright
+	font-size: .7rem
+.footer
+	.nav-title
+		color: $secondary-text-color
+		background-color: none
+	.nav-item a
+		color: $primary-color
+//Form CSS
+form
+	padding-bottom: 1rem 
+	div[class*='col']
+		margin-top: 1rem
+label
+	font-weight: 600
+.form-control
+	font-size: inherit
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-ms-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out
+input:focus
+	color: $primary-color !important
+
+::placeholder /* Chrome/Opera/Safari */
+	color: $primary-text-color
+	font-weight: 100
+	opacity: .5
+
 //Timeline CSS
 .event-heading
 	margin-top: 0
@@ -115,7 +147,7 @@ main
 .event-text
 	margin-bottom: .5rem
 	
-dt
+dt.month
 	background-color: $primary-color !important
 .timeline dl dd .time
 	width: auto

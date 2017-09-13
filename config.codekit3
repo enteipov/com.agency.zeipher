@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/contact-form.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact-form.php",
+		"oF": 0
+		},
 	"\/css\/bootflat.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -154,6 +160,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/hero-.png": {
+		"ft": 32768,
+		"iS": 771559,
+		"oA": 0,
+		"oAP": "\/img\/hero-.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/hero.png": {
+		"ft": 32768,
+		"iS": 623303,
+		"oA": 0,
+		"oAP": "\/img\/hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/inbox.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -187,7 +215,7 @@
 		},
 	"\/img\/zeipher-avi.png": {
 		"ft": 32768,
-		"iS": 8770,
+		"iS": 14622,
 		"oA": 0,
 		"oAP": "\/img\/zeipher-avi.png",
 		"oF": 0,
@@ -202,6 +230,16 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/parallax.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -212,12 +250,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/slabtext.min.js": {
+	"\/js\/waypoint.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/slabtext.min-min.js",
+		"oAP": "\/js\/waypoint-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

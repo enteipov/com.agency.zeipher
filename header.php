@@ -6,9 +6,10 @@
 			<div class="container h-100">
 				<div class="row text-container">
 					<div class="col my-auto text-center">
+						<img class="hero-logo" src="img/zeipher-avi.png" alt="Zeipher Logo">
 						<div>
-							<h1><strong>Where Technology Meets Medicine</strong></h1>
-							<h4>The web agency that caters to your practice.</h4>
+							<h1 class="mt-0"><strong>Where Technology Meets Medicine</strong></h1>
+							<h6>The web agency that caters to your practice.</h6>
 						</div>
 					</div>
 				</div>

@@ -10,7 +10,10 @@
 					</div>
 				</div>
 				<h4 class="text-center">Web Development</h4>
-				<p>Web development is the design and creation of web and mobile websites; It is the core identity of any modern business.</p>
+				<p>Web development is the design and creation of full and mobile webpages; It is the digital core of every brand, big and small.</p>
+				<div class="dropdown-divider"></div>
+				<p>Hello World</p>
+				
 			</div>
 		</div>
 		<div class="card border-0 special">
@@ -22,7 +25,7 @@
 					</div>
 				</div>
 				<h4 class="text-center">Email Marketing</h4>
-				<p>Email marketing is a convient and cost-effect way of staying intouch and updating your patients.</p>
+				<p>Email marketing is the convient and cost-effect method of keeping your patients up-to-date about your practice, events and promotions.</p>
 			</div>
 		</div>
 		<div class="card border-0 last special">
@@ -33,8 +36,8 @@
 						<div class="shader rounded-circle"></div>
 					</div>
 				</div>
-				<h4 class="text-center">Branding</h4>
-				<p>Branding is </p>
+				<h4 class="text-center">Graphics & Stationary</h4>
+				<p>Business cards, letter heads and everything in between are essential materials for pitching and projecting your brand to prospects.</p>
 			</div>
 		</div>
 	</div>
