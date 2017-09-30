@@ -2,6 +2,7 @@ $primary-color: #4FC1E9
 $primary-color-light: #29B6F6
 $primary-text-color: #9e9e9e
 $secondary-text-color: #424242
+$bg-color: #f1f2f6
 
 html,
 body,
@@ -13,15 +14,24 @@ header
 	color: $primary-color
 
 body
-	background: #f1f2f6
-	font-size: .9rem
+	background: $bg-color
+	font-size: .8rem
 	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important
+
+.section-header
+	display: inline-block
+	border-bottom: solid 3px $primary-color
+	border-right: solid 3px $primary-color
+	padding: 1rem
 
 .shader
 	width: 100%
 	height: 100%
 	background-color: rgba(0,0,0,0.3)
-
+i
+	color: $primary-color
+	font-size: 1rem
+	line-height: 2rem
 nav,
 .footer
 	color: $primary-color
@@ -70,43 +80,30 @@ ul.nav
 //Main CSS
 main
 	section
-		min-height: 100vh
-	section:not(:first-child)
-		margin-top: 25%
-	section:last-child
-		margin-bottom: 1rem
+		margin-bottom: 10rem
 	p
 		color: $primary-text-color
 	h1,h2,h3,h4,h5,h6
 		color: $secondary-text-color
-	.card.special
-		margin-top: 4rem
 	.card-body.special
-		padding: 3rem 1rem 0 1rem
-	.outline-border
-		position: absolute
-		top: -50px
-		left: 0
-		right: 0
-		margin: 0 auto
-		background: white
-		.img-container
-			height: 100%
-			width: 100%
-			background-size: cover
-			background-position: center
+		padding: 1rem 1rem 0 1rem
 	.outline-border
 		width: 100px
 		height: 100px
 		margin: 0 auto
 		border: solid 3px $primary-color
+		background: $bg-color
+		.img-container
+			height: 100%
+			width: 100%
+			background-size: cover
+			background-position: center
 		i
 			line-height: 86px
 			font-size: 35px
 			color: white
-
-.card-deck .card:not(:last-child)
-	margin-right: 0
+	.card-deck .card:not(:last-child)
+		margin-right: 0
 
 //Footer CSS
 .footer-copyright
@@ -137,6 +134,7 @@ input:focus
 ::placeholder /* Chrome/Opera/Safari */
 	color: $primary-text-color
 	font-weight: 100
+	font-size: inherit
 	opacity: .5
 
 //Timeline CSS
@@ -152,6 +150,15 @@ dt.month
 .timeline dl dd .time
 	width: auto
 
+.success
+	border: solid 3px #8BC34A
+	h4,p
+		color: #88C34A
+.error
+	border: solid 3px #f44336
+	h4,p
+		color: #f44336
+
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767px)
 	main
@@ -164,4 +171,6 @@ dt.month
 	.timeline
 		.circ
 			display: none
+	#contact-section
+		margin-bottom: 0
 		

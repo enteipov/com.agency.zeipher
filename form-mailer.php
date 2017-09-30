@@ -1,4 +1,4 @@
-<form name="contact-form" method="post" action="#">
+<form id="form-mailer" name="contact-form" method="post" action="contact-form-mailer.php">
 	<legend><h4>Contact Form</h4></legend>
 	<p>Feel free to contact us in regards to our services and pricing.</p>
 	<div class="row">
@@ -17,8 +17,8 @@
 			<input class="form-control" type="email" name="email" placeholder="Email" required>
 		</div>
 		<div class="col-sm-12 col-md-6">
-			<label for="bname">Business Name:</label>
-			<input class="form-control" type="text" name="bname" placeholder="Business Name" required>
+			<label for="bname">Phone:</label>
+			<input class="form-control" type="text" name="phone" placeholder="Phone Number" required>
 		</div>
 	</div>
 	<div class="row">

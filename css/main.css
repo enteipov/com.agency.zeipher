@@ -9,13 +9,24 @@ header {
 
 body {
   background: #f1f2f6;
-  font-size: .9rem;
+  font-size: .8rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important; }
+
+.section-header {
+  display: inline-block;
+  border-bottom: solid 3px #4FC1E9;
+  border-right: solid 3px #4FC1E9;
+  padding: 1rem; }
 
 .shader {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3); }
+
+i {
+  color: #4FC1E9;
+  font-size: 1rem;
+  line-height: 2rem; }
 
 nav,
 .footer {
@@ -68,13 +79,7 @@ ul.nav {
   width: 4rem; }
 
 main section {
-  min-height: 100vh; }
-
-main section:not(:first-child) {
-  margin-top: 25%; }
-
-main section:last-child {
-  margin-bottom: 1rem; }
+  margin-bottom: 10rem; }
 
 main p {
   color: #9e9e9e; }
@@ -82,36 +87,26 @@ main p {
 main h1, main h2, main h3, main h4, main h5, main h6 {
   color: #424242; }
 
-main .card.special {
-  margin-top: 4rem; }
-
 main .card-body.special {
-  padding: 3rem 1rem 0 1rem; }
-
-main .outline-border {
-  position: absolute;
-  top: -50px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  background: white; }
-  main .outline-border .img-container {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center; }
+  padding: 1rem 1rem 0 1rem; }
 
 main .outline-border {
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  border: solid 3px #4FC1E9; }
+  border: solid 3px #4FC1E9;
+  background: #f1f2f6; }
+  main .outline-border .img-container {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center; }
   main .outline-border i {
     line-height: 86px;
     font-size: 35px;
     color: white; }
 
-.card-deck .card:not(:last-child) {
+main .card-deck .card:not(:last-child) {
   margin-right: 0; }
 
 .footer-copyright {
@@ -146,6 +141,7 @@ input:focus {
 ::placeholder {
   color: #9e9e9e;
   font-weight: 100;
+  font-size: inherit;
   opacity: .5; }
 
 .event-heading {
@@ -161,10 +157,22 @@ dt.month {
 .timeline dl dd .time {
   width: auto; }
 
+.success {
+  border: solid 3px #8BC34A; }
+  .success h4, .success p {
+    color: #88C34A; }
+
+.error {
+  border: solid 3px #f44336; }
+  .error h4, .error p {
+    color: #f44336; }
+
 @media (max-width: 767px) {
   main .card:not(.last) {
     margin-bottom: 1rem; }
   .timeline dl dd .time {
     width: 50px; }
   .timeline .circ {
-    display: none; } }
+    display: none; }
+  #contact-section {
+    margin-bottom: 0; } }
